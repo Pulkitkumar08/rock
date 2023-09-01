@@ -6,4 +6,6 @@ def get_player_choice():
             return player_choice
         else:
             print("Invalid choice. Please enter rock, paper, or scissors.")
-            
+            def get_computer_choice():
+    return random.choice(["rock", "paper", "scissors"]);
+    
