@@ -1,3 +1,4 @@
+import random
 def get_player_choice():
     while True:
         player_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
@@ -5,3 +6,4 @@ def get_player_choice():
             return player_choice
         else:
             print("Invalid choice. Please enter rock, paper, or scissors.")
+            
